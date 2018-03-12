@@ -25,6 +25,8 @@ public:
 	std::vector<AppInteraction*> getAppActions();
 		 
 	std::vector<AppInteraction*> addAppAction(AppInteraction* action);
+
+	virtual void launchApp() = 0;
 };
 
 

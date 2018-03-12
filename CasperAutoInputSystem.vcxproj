@@ -151,11 +151,13 @@
     <ClInclude Include="AppInteraction.h" />
     <ClInclude Include="AppProfile.h" />
     <ClInclude Include="CommandParser.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="SpotifyAppProfile.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TapAppInteraction.h" />
     <ClInclude Include="TapFeatureDetector.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextAppInteraction.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AppInteraction.cpp" />
@@ -171,6 +173,15 @@
     </ClCompile>
     <ClCompile Include="TapAppInteraction.cpp" />
     <ClCompile Include="TapFeatureDetector.cpp" />
+    <ClCompile Include="TextAppInteraction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CasperAutoInputSystem.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\ref_images\spotify_search_icon.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </Image>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

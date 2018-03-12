@@ -1,5 +1,6 @@
 #include "AppInteraction.h"
 #include "TapAppInteraction.h"
+#include "TextAppInteraction.h"
 
 #pragma once
 #ifndef SPOTIFYAPPPROFILE_H
@@ -14,7 +15,12 @@ public:
 	~SpotifyAppProfile();
 
 	// API Actions
+	virtual void launchApp();
 	void launchSearchMenu();
+	void selectSearchBar();
+	void runSearchQuery(std::string query_text);
+	void play();
+	void pause();
 };
 
 #endif // !SPOTIFYAPPPROFILE_H

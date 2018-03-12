@@ -3,6 +3,9 @@
 #include <string>
 #include <tuple>
 #include "CommandParser.h"
+#include "TapFeatureDetector.h"
+#include "opencv2/core.hpp"
+#include "opencv2/highgui.hpp"
 
 class TapAppInteraction :
 	public AppInteraction
@@ -10,10 +13,12 @@ class TapAppInteraction :
 protected:
 	int x;
 	int y;
+	bool FIXED;		// If true, will not run FLANN feature matching
 	std::string icon_img_path;
 public:
 	TapAppInteraction();
-	TapAppInteraction(std::string name);
+	TapAppInteraction(std::string name, std::string icon_img);
+	TapAppInteraction(std::string name, int set_x, int set_y);
 	~TapAppInteraction();
 
 	std::tuple<int, int> getXY();

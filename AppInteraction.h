@@ -2,7 +2,7 @@
 #include <string>
 #include <tuple>
 
-enum class Interaction { TAP, TOUCH };
+enum class Interaction { TAP, TEXT };
 
 #pragma once
 #ifndef APPINTERACTION_H
