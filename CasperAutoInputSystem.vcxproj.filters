@@ -27,6 +27,18 @@
     <ClInclude Include="TapFeatureDetector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AppProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppInteraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotifyAppProfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TapAppInteraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -39,6 +51,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TapFeatureDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppInteraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotifyAppProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TapAppInteraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
