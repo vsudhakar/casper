@@ -12,4 +12,8 @@ std::string tapCommandBuilder(int x, int y);
 
 std::string textCommandBuilder(std::string rawInput);
 
+std::string screenCapCommandBuilder(std::string screencapName);
+
+std::string pullCommandBuilder(std::string fileName);
+
 #endif // !COMMANDPARSER_H
