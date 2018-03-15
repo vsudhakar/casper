@@ -1,12 +1,12 @@
 #include "AppInteraction.h"
 #include "TapAppInteraction.h"
 #include "TextAppInteraction.h"
+#include "AppProfile.h"
 
 #pragma once
 #ifndef SPOTIFYAPPPROFILE_H
 #define SPOTIFYAPPPROTILE_H
 
-#include "AppProfile.h"
 class SpotifyAppProfile :
 	public AppProfile
 {
@@ -19,8 +19,10 @@ public:
 	void launchSearchMenu();
 	void selectSearchBar();
 	void runSearchQuery(std::string query_text);
-	void play();
-	void pause();
+	void shufflePlay();
+	bool play();
+	bool pause();
+	void alternateControl();	// Switch play and pause
 };
 
 #endif // !SPOTIFYAPPPROFILE_H

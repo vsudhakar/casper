@@ -151,6 +151,7 @@
     <ClInclude Include="AppInteraction.h" />
     <ClInclude Include="AppProfile.h" />
     <ClInclude Include="CommandParser.h" />
+    <ClInclude Include="GMapsAppProfile.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="SpotifyAppProfile.h" />
     <ClInclude Include="stdafx.h" />
@@ -164,6 +165,7 @@
     <ClCompile Include="AppProfile.cpp" />
     <ClCompile Include="CasperAutoInputSystem.cpp" />
     <ClCompile Include="CommandParser.cpp" />
+    <ClCompile Include="GMapsAppProfile.cpp" />
     <ClCompile Include="SpotifyAppProfile.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
