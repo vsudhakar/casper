@@ -10,5 +10,7 @@ Casper is in a very early stage of development. Currently it supports:
 
 * Spotify - App Launch, Search, Shuffle Play*
 
-
 *Uses feature detection for accuracy
+
+### Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dUTZ76FmfGQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
